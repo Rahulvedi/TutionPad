@@ -66,7 +66,6 @@ export default withRouter(function Header({ location }) {
                   withLink
                   linkTo="/"
                   src="/images/logo-alt.svg"
-                  title="Tutionpad."
                 />
               </>
             }
@@ -89,7 +88,6 @@ export default withRouter(function Header({ location }) {
                   withLink
                   linkTo="/"
                   src="/images/logo-alt.svg"
-                  title="Tutionpad."
                 />
               </>
               <NavbarSearch />

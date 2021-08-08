@@ -5,8 +5,7 @@ import IconCardWrapper, { IconWrapper, TitleArea } from './IconCard.style';
 const IconCard = ({ icon, title, align, className }) => {
   // Add all classs to an array
   const addAllClasses = ['icon_card'];
-
-  // className prop checking
+  // className prop ch
   if (className) {
     addAllClasses.push(className);
   }

@@ -17,14 +17,14 @@ const MobileMenu = ({ className }) => {
     <Menu className={className}>
       <Menu.Item key="0">
         <NavLink exact to={HOME_PAGE}>
-          Hotels
+          Live Classes
         </NavLink>
       </Menu.Item>
       <Menu.Item key="1">
-        <NavLink to={LISTING_POSTS_PAGE}>Listing</NavLink>
+        <NavLink to={LISTING_POSTS_PAGE}>Study Material</NavLink>
       </Menu.Item>
       <Menu.Item key="2">
-        <NavLink to={PRICING_PLAN_PAGE}>Pricing</NavLink>
+        <NavLink to={PRICING_PLAN_PAGE}>More</NavLink>
       </Menu.Item>
       {loggedIn && (
         <Menu.Item key="3">

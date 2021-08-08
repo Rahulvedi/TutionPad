@@ -14,18 +14,18 @@ const MainMenu = ({ className }) => {
     <Menu className={className}>
       <Menu.Item key="0">
         <NavLink exact to={`${HOME_PAGE}`}>
-          Hotels
+          Live Classes
         </NavLink>
       </Menu.Item>
       <Menu.Item key="1">
-        <NavLink to={`${LISTING_POSTS_PAGE}`}>Listing</NavLink>
+        <NavLink to={`${LISTING_POSTS_PAGE}`}>Study Material</NavLink>
       </Menu.Item>
       <Menu.Item key="2">
-        <NavLink to={`${AGENT_PROFILE_PAGE}`}>Agent</NavLink>
+        <NavLink to={`${AGENT_PROFILE_PAGE}`}>More</NavLink>
       </Menu.Item>
-      <Menu.Item key="3">
+      {/* <Menu.Item key="3">
         <NavLink to={`${PRICING_PLAN_PAGE}`}>Pricing</NavLink>
-      </Menu.Item>
+      </Menu.Item> */}
     </Menu>
   );
 };
