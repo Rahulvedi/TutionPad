@@ -14,7 +14,7 @@ const MainMenu = ({ className }) => {
     <Menu className={className}>
       <Menu.Item key="0">
         <NavLink exact to={`${HOME_PAGE}`}>
-          Live Classes
+          Live 
         </NavLink>
       </Menu.Item>
       <Menu.Item key="1">
